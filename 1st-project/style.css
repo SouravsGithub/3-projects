@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(243, 204, 98), rgb(148, 224, 148));
+    overflow: hidden;
+}
+
+.container {
+    background-color: white;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    border: none;
+    background-color: rgb(241, 241, 241);
+    margin: 2rem 0rem;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    margin: 0rem;
+    border: none;
+}
+
+.output {
+    padding: 1rem;
+    font-size: 2rem;
+    border: 1px solid black;
+    text-align: center;
+    width: 90%;
+}
