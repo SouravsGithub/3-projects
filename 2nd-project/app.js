@@ -13,6 +13,12 @@ btn.addEventListener("click", () => {
     let mainUrl = constructUrl();
     getData(mainUrl);
 });
+document.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+        let mainUrl = constructUrl();
+        getData(mainUrl);
+    }
+});
 
 function constructUrl() {
     let word = document.querySelector("#wordInput").value;
