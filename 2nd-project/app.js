@@ -39,10 +39,11 @@ function getData(url) {
                 <li>
                     <h4 class="wordType">${item.partOfSpeech}</h4>
                     <p class="definition">${item.definitions[0].definition}</p>
-                    <p class="example">&#8220;${item.definitions[0].example ? item.definitions[0].example : "Don't have any examples of this one"}	&#8221;</p>
+                    <p class="example">&#8220;${item.definitions[0].example ? item.definitions[0].example : "Sorry! Couldn't have any examples of this one"}	&#8221;</p>
                 </li>
             `
         });
+        document.querySelector("#wordInput").value = "";
     }).catch((err) => {
         console.log("error", err);
     });

@@ -3,11 +3,19 @@
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100vw;
     height: 100vh;
+    background-color: #FEFBE9;
+}
+
+.main-container {
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
 }
 
 input,
@@ -17,8 +25,42 @@ label,
     font-size: 1.5rem;
 }
 
+.btn {
+    background-color: white;
+    padding: 0.3rem 1rem;
+    border: 1px solid #aaaaaa;
+}
+
 ul {
     list-style: none;
     width: 100%;
     padding: 0;
+}
+
+.icons {
+    margin-bottom: 1%;
+}
+
+.icons img {
+    width: 45px;
+    height: 45px;
+}
+
+input {
+    padding: 0.5rem 2rem;
+    border: 1px solid #aaaaaa;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search {
+    width: 30px;
+    height: 30px;
+    pointer-events: none;
+}
+
+.output {
+    width: 80%;
 }
