@@ -10,30 +10,22 @@
 </head>
 
 <body>
-    <div class="container">
-        <input type="text" placeholder="Enter the word" id="wordInput">
-        <button class="btn">Get Details</button>
-    </div>
-    <div class="output">
-        <h3 class="mainWord">Hello</h3>
-        <p class="pronounciation">pronounciation</p>
-        <ul class="meanings">
-            <li>
-                <h4>Exclamation</h4>
-                <p>Used as a greeting or to begin a conversation</p>
-                <p>hello there, Katie</p>
-            </li>
-            <li>
-                <h4>Noun</h4>
-                <p>an utterance of hello</p>
-                <p>she was getting polite hellos from people</p>
-            </li>
-            <li>
-                <h4>verb</h4>
-                <p>say or short hello</p>
-                <p>I predded the phone button and helloed</p>
-            </li>
-        </ul>
+    <div class="main-container">
+        <div class="container">
+            <input type="text" placeholder="Enter the word" id="wordInput">
+            <button class="btn">Get Details</button>
+        </div>
+        <div class="output">
+            <h3 class="mainWord">Word</h3>
+            <p class="pronounciation">pronounciation</p>
+            <ul class="meanings">
+                <li>
+                    <h4 class="wordType">Type of word</h4>
+                    <p class="definition">definition of the word</p>
+                    <p class="example">Example statement</p>
+                </li>
+            </ul>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>

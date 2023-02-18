@@ -4,9 +4,8 @@
 
 body {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
 }
@@ -22,10 +21,4 @@ ul {
     list-style: none;
     width: 100%;
     padding: 0;
-}
-
-ul li p,
-.output>h3,
-.output>p {
-    margin-left: 3rem;
 }
